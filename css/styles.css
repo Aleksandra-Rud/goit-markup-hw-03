@@ -242,6 +242,7 @@ img {
 
 /*============working=========*/
 .working-section {
+  width: 1600px;
   background-color: #e5e5e5;
   padding-top: 47px;
   padding-bottom: 94px;
@@ -260,6 +261,7 @@ img {
 
 /*============team=========*/
 .team {
+  width: 1600px;
   background-color: #f5f4fa;
   text-align: center;
   letter-spacing: 0.03em;
@@ -307,11 +309,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  padding-bottom: 30px;
 }
 /*============End team=========*/
 
 /*============footer==========*/
 .footers {
+  width: 1600px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
