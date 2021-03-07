@@ -88,15 +88,17 @@ img {
 
 /*==========header=========*/
 .header-block {
+  width: 1600px;
   background-color: #ffffff;
   padding-top: 32px;
   padding-bottom: 32px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-block .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .site-nav {
@@ -119,17 +121,9 @@ img {
   align-items: center;
 }
 
-.header-links-item:last-child {
-  margin-right: 331px;
-}
-
-.header-list {
-  display: flex;
-  margin-right: 50px;
-}
-
 .header-list-item:not(:last-child) {
-  margin-right: 30;
+  margin-left: auto;
+  margin-right: 50px;
 }
 
 .header-list:hover,
@@ -137,19 +131,20 @@ img {
   color: var(--accent-color);
 }
 
-.contact-links {
-  display: flex;
+.header-links-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact-list:last-child {
-  margin-right: 0;
+.contact-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .contact-links.link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
@@ -210,6 +205,7 @@ img {
 
 /*============features=========*/
 .features-section {
+  width: 1600px;
   background-color: #e5e5e5;
   padding-top: 94px;
   padding-bottom: 47px;
@@ -368,8 +364,12 @@ img {
 }
 
 .portfolio-section {
-  padding-top: 100px;
-  padding-bottom: 114px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-sup-buttons {
+  margin-bottom: 50px;
 }
 
 .portfolio-buttons {
@@ -378,10 +378,6 @@ img {
   justify-content: center;
   text-align: center;
   align-items: center;
-}
-
-.portfolio-sup-buttons {
-  margin-bottom: 56px;
 }
 
 .projects-button {
@@ -407,14 +403,12 @@ img {
 .sample-projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-left: -30px;
-  margin-top: -30px;
+  justify-content: centerf;
+  margin: -30px -15px;
 }
 
 .portfolio-links-cards {
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin: 30px 15px 0 15px;
   flex-basis: calc(100% / 3 - 30px);
 }
 
